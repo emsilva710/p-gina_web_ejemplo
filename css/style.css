@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #eaf0f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #66665E;
+}
+
+#arriba{
+    height: 40px;
+    background: #33B4DE;
+}
+
+h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Georgia', 'Times New Roman', 'Times', serif;
+    color: #0C95C9;
+}
+
+h1{font-size: 44px;}
+h2{font-size: 18px;}
+
+p, ul{
+    margin-top: 0;
+    line-height: 240%;
+    text-align: justify;
+}
+
+#header{
+    height: 45px;
+    background: #000000;
+}
+
+#menu{
+    float: left;
+    height: 45px;
+    padding-left: 300px;
+}
+
+#menu ul {
+    padding: 10px 0px 0px 5px;
+}
+
+#menu li {
+    display: block;
+    float: left;
+}
+
+#menu a {
+    display: block;
+    padding: 3px 25px 2px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#menu a:hover { text-decoration: underline;}
+#menu .current_page_item a{
+    height: 20px;
+    background: #f7e031;
+}
+
+#page{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#page-bgtop {padding-top: 30px;}
+
+#logo{
+    height: 96px;
+    background: #00A1DA;
+    padding-left: 300px;
+}
+
+#logo h1{
+    margin: 0px;
+    line-height: normal;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding-top: 54px;
+    font-size: 34px;
+}
+
+#content{
+    float: right;
+    width: 658px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.post{
+    border-bottom: 1px dotted #83878C;
+    margin-bottom: 25px;
+}
+
+.post .title{
+    height: 30px;
+    color: #549900;
+}
+
+.post .title a{
+    text-decoration: none;
+    color:#585D60;
+}
+
+.post .entry {padding: 10px 0;}
+
+#sidebar{
+    float: left;
+    width: 177px;
+    padding-left: 22px;
+    font-size: 11px;
+    color:#585D60;
+}
+
+#sidebar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal;
+}
+
+#sidebar li{
+    margin-bottom: 30px;padding: 0px 0px 10px 0px;
+}
+
+#sidebar li li {
+    margin: 0;
+    padding: 7px 10px 10px 7px;
+    border-bottom: 1px dotted #83878C;
+}
+
+#sidebar p{
+    padding: 0px 10px;
+    line-height: 200%;
+}
+
+#sidebar h2{
+    height: 26px;
+    margin: 0 0 10px 0px;
+    padding: 12px 0 2px 7px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #464F54;
+}
+
+#sidebar a{
+    text-decoration: none;
+    color: #585D60;
+}
+
+#footer-bgcontent {
+    height: 99px;
+    background: #394144;
+}
